@@ -27,7 +27,7 @@ btnEl.addEventListener("click", async function(){
         filmNameEl.innerText = data.results[j].original_title;
         descriptionEl.innerText = data.results[j].overview ;
         if (data.results[j].overview === ""){
-            descriptionEl.innerText = `Description :Movie description not available, sorry!` ;
+            descriptionEl.innerText = `"No description yet - but it's worth the surprise 😉 "` ;
         }else{
             descriptionEl.innerText = `Description :${data.results[j].overview}` ;
         }

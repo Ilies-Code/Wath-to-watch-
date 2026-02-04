@@ -27,7 +27,7 @@ body {
 .container .welcome p {
     font-size: 20px;
     font-weight: 700;
-    color: #b3b3b3;
+    color: lightgray;
 }
 .container .btn {
     background-color: #e50914;
@@ -76,7 +76,7 @@ body {
     width: 400px;
     padding: 20px;
     margin: 30px;
-    color: #b3b3b3;
+    color: lightgrey;
     font-size: 19px;
     font-weight: 700 ;
 }
