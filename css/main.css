@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(135deg ,#0F0F0F, #1C1C1C );
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin: 20px;
+    padding: 30px 40px;
+    background-color: #1C1C1C;
+}
+.container .welcome h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .welcome p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #b3b3b3;
+}
+.container .btn {
+    background-color: #e50914;
+    margin: 30px auto 10px;
+    padding: 10px;
+    border: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.container .btn:active {
+    transform: scale(1.06);
+}
+.box {
+    display: none;
+    align-items: center;
+}
+.box .image-movie {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 30px auto;
+    border: 2px solid #e50914;
+}
+.box .name-movie {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #e50914;
+    font-size: 18px;
+    font-weight: 600;
+}
+.box .description {
+    width: 400px;
+    padding: 20px;
+    margin: 30px;
+    color: #b3b3b3;
+    font-size: 19px;
+    font-weight: 700 ;
+}
+.box .release {
+    margin-top: 20px;
+}
+/* wach ghadi nzid f js */
+@media (max-width :950px) {
+    .box {
+        flex-direction: column;
+    }
+}
